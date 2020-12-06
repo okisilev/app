@@ -10,3 +10,44 @@
     /* oet, svg - редко используемые форматы шрифтов */
     url(../fonts/Roboto-Regular.ttf) format("wolf")
 }
+
+body {
+    margin: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+.features-text-bloc {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.features-text-titel {
+    color: #f39003;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.features-text-subtitel {   
+    font-weight: 400;
+    color: #373737;
+     min-height: 48px; /*фикс высоты блока с текстом */
+}
+
+/* block cards */
+.features-cartd_block {
+    background-color: chocolate;
+    display: inline-block;
+}
+
+.features-cards_img {
+    /* display: inline-block; */
+}
+
+.features-cards-text {
+    /* display: inline-block; */
+}
