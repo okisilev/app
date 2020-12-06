@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "RoboroRegular";
+    font-style: normal;
+    font-weight: 400;
+    /* браузер сначала ищет шрифт у себя */
+    src: local("RoboroRegular"),
+    /* если не получилось, то подключает этот формат */
+    /* ttf, otf - для старых браузеров не сжатые */
+    /* woff, woff2 современные шрифты*/
+    /* oet, svg - редко используемые форматы шрифтов */
+    url(../fonts/Roboto-Regular.ttf) format("wolf")
+}
