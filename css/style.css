@@ -1,12 +1,48 @@
 @font-face {
-    font-family: "RoboroRegular";
-    font-style: normal;
+    font-family: 'ProximaNova';
     font-weight: 400;
-    /* браузер сначала ищет шрифт у себя */
-    src: local("RoboroRegular"),
-    /* если не получилось, то подключает этот формат */
-    /* ttf, otf - для старых браузеров не сжатые */
-    /* woff, woff2 современные шрифты*/
-    /* oet, svg - редко используемые форматы шрифтов */
-    url(../fonts/Roboto-Regular.ttf) format("wolf")
+    font-style: normal;
+    local
+    local('ProximaNova'), local('proximaNova-Regular'),
+    url(../fonts/proximaNova-Regular.woff2) format ('woff2'),
+    url(../fonts/proximaNova-Regular.woff) format ('woff'),
+    url(../fonts/proximaNova-Regular.ttf) format('truetype')
 }
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+    margin: 0;
+}
+
+
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    color: #000000;
+    font-size: 36;
+    text-align: center;	
+}
+
+.cards-box {
+    display: inline-flex;
+    
+    justify-content: space-around;
+   
+}
+
+/* .cards-name {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.cards-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+} */
